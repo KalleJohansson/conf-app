@@ -3,5 +3,7 @@ orbs:
   node: circleci/node@3.0.0
 workflows:
   node-tests:
+    environment:
+      CHROME_BIN: /usr/bin/google-chrome karma start --single-run
     jobs:
       - node/test
