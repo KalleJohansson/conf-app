@@ -1,6 +1,6 @@
 version: 2.1
 environment:
-    - CHROME_BIN: /usr/bin/google-chrome karma start --single-run
+    - CHROME_BIN: /usr/bin/google-chrome
 orbs:
   node: circleci/node@3.0.0
 workflows:
