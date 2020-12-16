@@ -1939,6 +1939,11 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://artifactory.raa.se:443/artifactory/api/npm/npm/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
+bootstrap@^3.3.6:
+  version "3.4.1"
+  resolved "https://artifactory.raa.se:443/artifactory/api/npm/npm/bootstrap/-/bootstrap-3.4.1.tgz#c3a347d419e289ad11f4033e3c4132b87c081d72"
+  integrity sha1-w6NH1Bniia0R9AM+PEEyuHwIHXI=
+
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://artifactory.raa.se:443/artifactory/api/npm/npm/brace-expansion/-/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
@@ -4963,6 +4968,11 @@ jest-worker@^26.5.0:
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
 
+jquery@^2.2.4:
+  version "2.2.4"
+  resolved "https://artifactory.raa.se:443/artifactory/api/npm/npm/jquery/-/jquery-2.2.4.tgz#2c89d6889b5eac522a7eea32c14521559c6cbf02"
+  integrity sha1-LInWiJterFIqfuoywUUhVZxsvwI=
+
 js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://artifactory.raa.se:443/artifactory/api/npm/npm/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -5715,6 +5725,14 @@ next-tick@~1.0.0:
   version "1.0.0"
   resolved "https://artifactory.raa.se:443/artifactory/api/npm/npm/next-tick/-/next-tick-1.0.0.tgz#ca86d1fe8828169b0120208e3dc8424b9db8342c"
   integrity sha1-yobR/ogoFpsBICCOPchCS524NCw=
+
+ngf-bootstrap@^0.0.5:
+  version "0.0.5"
+  resolved "https://artifactory.raa.se:443/artifactory/api/npm/npm/ngf-bootstrap/-/ngf-bootstrap-0.0.5.tgz#82afee716ab0dcbe1ac721a71ec088869bb118b2"
+  integrity sha1-gq/ucWqw3L4axyGnHsCIhpuxGLI=
+  dependencies:
+    bootstrap "^3.3.6"
+    jquery "^2.2.4"
 
 nice-try@^1.0.4:
   version "1.0.5"

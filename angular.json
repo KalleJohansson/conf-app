@@ -8,7 +8,7 @@
       "schematics": {},
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "events",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/ngf-bootstrap/dist/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -117,6 +118,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "conf-app"
+    }
+  },
+  "defaultProject": "conf-app",
+  "cli": {
+    "analytics": false
+  }
 }
