@@ -10,7 +10,10 @@ import {
   EventRouteActivatorService,
   EventsListResolverService,
   SessionListComponent,
-  DurationPipe
+  DurationPipe,
+  UpvoteComponent,
+  VoterService,
+  LocationValidator
 } from './events/index';
 import { EventsAppComponent } from './events-app.component';
 import { NavBarComponent } from './nav/navbar.component';
@@ -38,7 +41,9 @@ import { MatDialogModule } from '@angular/material/dialog';
     NavBarComponent,
     CollapsibleWellComponent,
     SimpleDialogComponent,
-    DurationPipe
+    UpvoteComponent,
+    DurationPipe,
+    LocationValidator
   ],
   imports: [
     BrowserModule,
@@ -53,6 +58,7 @@ import { MatDialogModule } from '@angular/material/dialog';
     EventRouteActivatorService,
     EventsListResolverService,
     AuthService,
+    VoterService,
     {
       provide: 'canDeactivateCreateEvent',
       useValue: checkDirtyState
